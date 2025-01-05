@@ -1,0 +1,79 @@
+# For detailed documentation on the format, refer to:
+#
+# - https://posit-dev.github.io/brand-yml
+# - https://quarto.org/docs/authoring/brand.html
+
+meta:
+  name:
+    short: Is Latitude Associated with Chronotype?
+    full: Is Latitude Associated with Chronotype? [Master's Thesis]
+  link:
+    home: https://danielvartan.github.io/mastersthesis
+    github: https://github.com/danielvartan/mastersthesis
+    osf: https://doi.org/10.17605/OSF.IO/YGKTS
+  description: |
+    Quarto book of the Master's Thesis: Is latitude associated with
+    chronotype?
+
+logo:
+  images:
+    favicon:
+      path: images/favicon.png
+      alt: "Logo favicon"
+
+# For a better visualization of the color palette, see:
+#
+# - https://coolors.co/user/palettes/67527c62131790000b4c03d7
+# - https://www.color-name.com/hex/ea7701
+# - https://www.pantone.com/articles/case-studies/colors-of-ticino
+# - https://colori.ticino.ch/en/pantone/lugano-sunset-orange
+# - https://www.ticino.ch/en/travel-inspirations/top-5-sunsets.html
+
+color:
+  palette:
+    orange: "#EA7701" # PANTONE Lugano Sunset Orange
+    orange-975: "#FCF1E5" # get_brand_color_tint(975, "orange")
+    orange-980: "#FEF9F4"
+    orange-985: "#FEFAF7"
+    orange-990: "#FEFCF9"
+    orange-995: "#FEFDFC"
+    orange-999: "#FEFEFE"
+    light-orange: "#F5BD83"
+    dark-orange: "#964D01"
+    white: "#FFFFFF"
+    gray: "#4F5556"
+    black: "#142A32"
+    black-725: "#7D898E" # get_brand_color_tint(725, "black")
+
+  background: orange-980
+  primary: orange
+  secondary: black
+  tertiary: gray
+  success: orange
+  info: black
+  warning: black
+  danger: black
+  light: light-orange
+  dark: gray
+
+typography:
+  fonts:
+    - family: Poppins
+      source: google
+      weight: [300, 400, 500, 600]
+    - family: DM Sans
+      source: google
+    - family: DM Mono
+      source: google
+  base:
+    family: DM Sans
+  headings:
+    family: Poppins
+    color: black
+    weight: bold
+  monospace: DM Mono
+  monospace-inline:
+    color: black
+  link:
+    color: orange
+    decoration: underline
