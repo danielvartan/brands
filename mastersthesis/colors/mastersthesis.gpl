@@ -2,7 +2,7 @@ GIMP Palette
 Name: mastersthesis
 Columns: 0
 
-# Learn more about the fomrat at:
+# Learn more about the format at:
 # 
 # - https://github.com/Robert-96/gimp-color-palettes
 # - https://developer.gimp.org/core/standards/gpl/
@@ -21,9 +21,10 @@ Columns: 0
 # - Align the numbers to the right.
 # - The presence of the `Columns` lines is required on Inkscape.
 
+255 255 255   White
+  0   0   0   Black
 150  77   1   Dark Orange
 234 119   1   Orange
 245 189 131   Light Orange
-255 255 255   White
+ 20  42  50   New Black
  79  85  86   Grey
- 20  42  50   Black
