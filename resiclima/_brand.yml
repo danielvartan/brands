@@ -3,72 +3,64 @@
 # - https://posit-dev.github.io/brand-yml
 # - https://quarto.org/docs/authoring/brand.html
 
-# # For details abou the brand identity, refer to:
-#
-# - https://spotify.design
-# - https://developer.spotify.com/documentation/design#fonts
-
 meta:
-  name: Spotify
+  name:
+    short: RESICLIMA
+    full: Rede Resiclima
   link:
-    home: https://www..spotify.com
+    home: https://resiclima.com.br
+    instagram: https://www.instagram.com/resiclimacom/
+    facebook: https://www.facebook.com/profile.php?id=61552044380623
+    youtube: https://www.youtube.com/@Resiclima
+    linktree: https://linktr.ee/resiclima
   description: |
-    Spotify is a digital music service that provides access to thousands of 
-    music.
+    A Rede Resiclima é uma colaboração interinstitucional que reúne 
+    pesquisadores dedicados ao estudo das mudanças climáticas. Originária de 
+    diversas instituições acadêmicas, como UFPE, UFRPE, UFPB, UPE, UFMA, 
+    Unifesspa, USP, UnB, UFRN, PUC-Rio, UFU, University of Michigan e 
+    University of Helsinki, a rede promove uma abordagem integrada para 
+    entender as variadas dimensões das transformações climáticas e suas 
+    implicações.
 
-logo:
+logo: 
   images:
-    whatsapp-icon:
-      path: images/whatsapp-icon-green-rgb-72-dpi-w-black-bg.png
-      alt: "Logo icon for WhatsApp"
+    favicon:
+      path: images/favicon.png
+      alt: "Logo favicon"
+    og-image:
+      path: image/og-image.png
+      alt: "Open Graph Image"
+    primary:
+      path: images/logo-rgb-150-dpi.png
+      alt: "Logo with name and icon"
+    horizontal:
+      path: images/logo-rgb-150-dpi-horizontal.png
+      alt: "Logo with name and icon"
 
+  small: favicon
+  medium: primary
+  large: primary
 color:
+  # The brand has color inconsistency.
+  # The 'red' seems to be the most common color used.
   palette:
-    green: "#1ED760"
-    green-yellow: "#AFFF5E"
-    teal: "#086E57"
-    darks-late-gray: "#173029"
-    royal-blue: "#173029"
-    crimson: "#FF0836"
-    hotpink: "#FF41B9"
-    pink: "#FFBAD0"
-    violet: "#173029"
+    red: "#F24C51"
+    official-red: "#1ED760" # Official, but not used.
     white: "#FFFFFF"
-    black: "#121212"
-  background: black
-  primary: green
-  secondary: crimson
-  tertiary: royal-blue
+    black: "#000000"
+  background: white
+  primary: red
+  secondary: black
+  tertiary: white
   light: black
   dark: white
 
-# # See:
-#
-# - https://fonts.google.com/
-# - https://beautifulwebtype.com/archivo-black/
-# - https://beautifulwebtype.com/archivo/
-# - https://beautifulwebtype.com/ia-writer-quattro/
-
-# # See:
-#
-# - https://lineto.com/typefaces/circular
-
 typography:
   fonts:
-    - family: SpotifyMixUITitle
-      source: file
-    - family: SpotifyMixUI
-      source: file
-    - family: Circular
-      source: file
+    - family: Rubik # + Rubik Light
+      source: google
   base:
-    family: SpotifyMixUI
+    family: Rubik
   headings:
-    family: SpotifyMixUITitle
+    family: Rubik
     color: black
-#  monospace: ?
-  monospace-inline:
-    color: black
-  link:
-    color: black
-    decoration: underline
