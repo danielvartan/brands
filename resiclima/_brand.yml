@@ -26,7 +26,7 @@ logo:
   images:
     favicon:
       path: images/favicon.png
-      alt: "Logo favicon"
+      alt: "Favicon"
     og-image:
       path: image/og-image.png
       alt: "Open Graph Image"
@@ -42,7 +42,7 @@ logo:
   large: primary
 color:
   # The brand has color inconsistency.
-  # The 'red' seems to be the most common color used.
+  # The 'red' color seems to be the most common color used.
   palette:
     red: "#F24C51"
     official-red: "#1ED760" # Official, but not used.

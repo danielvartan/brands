@@ -1,0 +1,53 @@
+# # For detailed documentation on the `_brand.yml` format, refer to:
+#
+# - https://posit-dev.github.io/brand-yml
+# - https://quarto.org/docs/authoring/brand.html
+
+# # Inspiration
+#
+# - Gestalt
+# - Emerging patterns
+
+meta:
+  name:
+    short: PPGSCX
+    full: Programa de Pós-Graduação em Modelagem de Sistemas Complexos
+  link:
+    home: http://www5.each.usp.br/mestrado-academico-em-modelagem-de-sistemas-complexos
+  description: |
+    Programa de Pós-Graduação stricto sensu da Escola de Artes, Ciências e 
+    Humanidades (EACH) da Universidade de São Paulo (USP).
+
+logo: 
+  images:
+    primary:
+      path: images/logo.svg
+      alt: "Logo"
+
+color:
+  palette:
+    white: "#FFFFFF"
+    black: "#000000"
+  background: white
+  primary: black
+  light: white
+  dark: black
+
+typography:
+  fonts:
+    - family: Poppins
+      source: google
+      weight: [300, 400, 500, 600]
+    - family: DM Sans
+      source: google
+    - family: DM Mono
+      source: google
+  base:
+    family: DM Sans
+  headings:
+    family: Poppins
+    color: black
+    weight: bold
+  monospace: DM Mono
+  monospace-inline:
+    color: black

@@ -1,0 +1,53 @@
+# # For detailed documentation on the `_brand.yml` format, refer to:
+#
+# - https://posit-dev.github.io/brand-yml
+# - https://quarto.org/docs/authoring/brand.html
+
+# Learn more about the brand at:
+# https://www.gov.br/capes/pt-br/centrais-de-conteudo/logomarca
+
+meta:
+  name:
+    short: CAPES
+    full: Coordenação de Aperfeiçoamento de Pessoal de Nível Superior
+  link:
+    home: https://www.gov.br/capes
+    instagram: https://www.instagram.com/CAPES_Oficial
+    facebook: https://www.facebook.com/CAPESOficial
+    youtube: https://www.youtube.com/CAPES_Oficial
+    flickr: https://www.flickr.com/CAPES_Oficial
+  description: |
+    Fundação vinculada ao Ministério da Educação, atua no âmbito da 
+    pós-graduação stricto sensu, para fomentar a pesquisa e a qualificação de 
+    pessoal de nível superior do Brasil.
+
+logo: 
+  images:
+    original:
+      path: images/logo-original.svg
+      alt: "Logo with name and icon"
+    horizontal:
+      path: images/logo-horizontal.svg
+      alt: "Logo with name and icon"
+
+color:
+  palette:
+    blue: "#007DC3"
+    green: "#00A651"
+    white: "#FFFFFF"
+    black: "#000000"
+  background: white
+  primary: blue
+  secondary: green
+  light: white
+  dark: black
+
+typography:
+  fonts:
+    - family: Helvetica # Bold, Regular, and Light
+      source: file
+  base:
+    family: Helvetica
+  headings:
+    family: Helvetica
+    color: black

@@ -1,0 +1,52 @@
+# # For detailed documentation on the `_brand.yml` format, refer to:
+#
+# - https://posit-dev.github.io/brand-yml
+# - https://quarto.org/docs/authoring/brand.html
+
+# Learn more about the brand at:
+# https://www.gov.br/cnpq/pt-br/canais_atendimento/identidade-visual
+
+meta:
+  name:
+    short: CNPq
+    full: Conselho Nacional de Desenvolvimento Científico e Tecnológico
+  link:
+    home: https://www.gov.br/cnpq
+    instagram: https://www.instagram.com/cnpq_oficial
+    facebook: https://www.facebook.com/cnpqoficial
+    youtube: https://www.youtube.com/CNPqOficial
+    flickr: https://www.flickr.com/cnpqoficial
+  description: |
+    Fundação pública vinculada ao Ministério da Ciência, Tecnologia e Inovação,
+    que tem como principais atribuições fomentar a pesquisa científica, 
+    tecnológica e de inovação e promover a formação de recursos humanos 
+    qualificados para a pesquisa, em todas as áreas do conhecimento.
+
+logo: 
+  images:
+    logo:
+      path: images/logo.svg
+      alt: "Logo"
+
+color:
+  palette:
+    blue: "#005195"
+    white: "#FFFFFF"
+    black: "#211E16"
+  background: white
+  primary: blue
+  secondary: black
+  light: white
+  dark: black
+
+typography:
+  fonts:
+    - family: Univers
+      source: file
+    - family: Arial
+      source: file
+  base:
+    family: Arial
+  headings:
+    family: Univers
+    color: black

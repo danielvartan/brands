@@ -1,0 +1,59 @@
+# # For detailed documentation on the `_brand.yml` format, refer to:
+#
+# - https://posit-dev.github.io/brand-yml
+# - https://quarto.org/docs/authoring/brand.html
+
+# Learn more about the brand at:
+# https://scs.usp.br/identidadevisual/
+
+meta:
+  name:
+    short: USP
+    full: Universidade de São Paulo
+  link:
+    home: https://www.gov.br/capes
+    instagram: https://www.instagram.com/CAPES_Oficial
+    facebook: https://www.facebook.com/CAPESOficial
+    youtube: https://www.youtube.com/CAPES_Oficial
+    flickr: https://www.flickr.com/CAPES_Oficial
+  description: |
+    Universidade pública, mantida pelo Estado de São Paulo e ligada à 
+    Secretaria de Ciência, Tecnologia e Inovação.
+
+logo: 
+  images:
+    logo:
+      path: images/logo.svg
+      alt: "Logo without name"
+    emblem:
+      path: images/emblem.svg
+      alt: "Emblem"
+    emblem-outline:
+      path: images/emblem-outline.svg
+      alt: "Outline emblem"
+
+color:
+  palette:
+    blue: "#1094AB"
+    light-blue: "#64C4D2"
+    yellow: "#FCB421"
+    white: "#FFFFFF"
+    black: "#000000"
+  background: white
+  primary: blue
+  secondary: light-blue
+  tertiary: yellow
+  light: white
+  dark: black
+
+typography:
+  fonts:
+    - family: Univers
+      source: file
+    - family: Open Sans
+      source: google
+  base:
+    family: Univers
+  headings:
+    family: Univers
+    color: black

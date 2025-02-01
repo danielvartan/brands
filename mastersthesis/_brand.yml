@@ -12,14 +12,17 @@ meta:
     github: https://github.com/danielvartan/mastersthesis
     osf: https://doi.org/10.17605/OSF.IO/YGKTS
   description: |
-    Quarto book of the Master's Thesis: Is latitude associated with
-    chronotype?
+    Thesis by Daniel Vartanian, under the title "Is Latitude Associated
+    with Chronotype?", presented to the School of Arts, Sciences and Humanities
+    (EACH) at the University of São Paulo (USP), as a requirement for the 
+    degree of Master of Science by the Graduate Program in Complex Systems 
+    Modeling, in the concentration area of Complex Systems (PPGSCX).
 
 logo:
   images:
     favicon:
       path: images/favicon.png
-      alt: "Logo favicon"
+      alt: "Favicon"
 
 # For a better visualization of the color palette, see:
 #
@@ -41,7 +44,7 @@ color:
     light-orange: "#F5BD83"
     dark-orange: "#964D01"
     white: "#FFFFFF"
-    gray: "#4F5556"
+    grey: "#4F5556"
     black: "#142A32"
     black-725: "#7D898E" # get_brand_color_tint(725, "black")
 
@@ -55,6 +58,15 @@ color:
   danger: black
   light: light-orange
   dark: gray
+
+# # See
+#
+# - https://fonts.google.com/
+# - https://www.vev.design/blog/google-font-combinations/
+# - https://beautifulwebtype.com/poppins/
+# - https://beautifulwebtype.com/archivo-black/
+# - https://beautifulwebtype.com/archivo/
+# - https://beautifulwebtype.com/ia-writer-quattro/
 
 typography:
   fonts:
@@ -74,6 +86,8 @@ typography:
   monospace: DM Mono
   monospace-inline:
     color: black
+  monospace-block:
+    background-color: orange-975
   link:
     color: orange
     decoration: underline
