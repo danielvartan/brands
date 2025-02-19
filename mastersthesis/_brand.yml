@@ -47,7 +47,6 @@ color:
     grey: "#4F5556"
     black: "#142A32"
     black-725: "#7D898E" # get_brand_color_tint(725, "black")
-
   background: orange-980
   primary: orange
   secondary: black

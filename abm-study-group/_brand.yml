@@ -1,0 +1,62 @@
+# # For detailed documentation on the `_brand.yml` format, refer to:
+#
+# - https://posit-dev.github.io/brand-yml
+# - https://quarto.org/docs/authoring/brand.html
+
+# Learn more about the brand at:
+# https://www.gov.br/capes/pt-br/centrais-de-conteudo/logomarca
+
+meta:
+  name:
+    short: ABM Study Group
+    full: Agent-Based Modeling Study Group
+  link:
+    home: https://linktr.ee/abmstudygroup
+    trello: https://trello.com/b/mzqEtRdm/agent-based-modeling-study-group
+  description: |
+    Study group on Agent-Based Modeling (ABM) of the Sustentarea 
+    Research and Extension Center at the University of São Paulo (USP).
+
+logo: 
+  images:
+    favicon:
+      path: arrow-plain-rgb-96-dpi.png
+      alt: "Favicon"
+    icon:
+      path: icon-rgb-72-dpi.png
+      alt: "Icon"
+
+color:
+  palette:
+    white: "#FFFFFF"
+    black: "#000000"
+    red: "#FF0000"
+    red-975: "#FFF2F2"
+    light-red: "#E7433A"
+    dark-red: "#CB0D02"
+    green: "#38840F"
+    light-green: "#C9F874"
+    blue: "#38A2E9"
+  background: white
+  primary: red
+  light: white
+  dark: black
+
+typography:
+  fonts:
+    - family: Open Sans
+      source: google
+  base:
+    family: Open Sans
+  headings:
+    family: Open Sans
+    color: black
+    weight: bold
+  monospace: DM Mono
+  monospace-inline:
+    color: black
+  monospace-block:
+    background-color: red-975
+  link:
+    color: red
+    decoration: underline

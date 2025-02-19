@@ -10,8 +10,8 @@
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    sodipodi:docname="favicon.svg"
    inkscape:export-filename="favicon.png"
-   inkscape:export-xdpi="48"
-   inkscape:export-ydpi="48"
+   inkscape:export-xdpi="72"
+   inkscape:export-ydpi="72"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -37,7 +37,7 @@
      showgrid="false"
      inkscape:zoom="0.35856832"
      inkscape:cx="372.31398"
-     inkscape:cy="553.59045"
+     inkscape:cy="553.59046"
      inkscape:window-width="1920"
      inkscape:window-height="1020"
      inkscape:window-x="0"
@@ -108,7 +108,8 @@
        y1="2.3941941e-05"
        x2="500"
        y2="1000.0001"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-1000,-1000)" />
   </defs>
   <g
      inkscape:label="Gradient"
@@ -117,9 +118,10 @@
     <circle
        style="fill:url(#linearGradient2);stroke-width:6;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0.999999, 4.8"
        id="path1"
-       cx="500"
-       cy="500"
-       r="500" />
+       cx="-500"
+       cy="-500"
+       r="500"
+       transform="scale(-1)" />
   </g>
   <metadata
      id="metadata1">

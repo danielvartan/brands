@@ -1,0 +1,42 @@
+# # For detailed documentation on the `_brand.yml` format, refer to:
+#
+# - https://posit-dev.github.io/brand-yml
+# - https://quarto.org/docs/authoring/brand.html
+
+meta:
+  name: NetLogo
+  link:
+    home: https://ccl.northwestern.edu/netlogo
+    github: https://github.com/NetLogo
+    twitter: https://x.com/netlogo
+  description: |
+    NetLogo is a multi-agent programmable modeling environment. It is 
+    used by many hundreds of thousands of students, teachers, and 
+    researchers worldwide.
+
+logo: 
+  images:
+    favicon:
+      path: images/arrow-plain.svg
+      alt: "Favicon"
+    web-icon:
+      path: images/icon-web-rgb-72-dpi.png
+      alt: "Netlogo Web Icon"
+    desktop-icon:
+      path: images/icon-desktop-rgb-72-dpi.png
+      alt: "NetLogo Desktop Icon"
+
+color:
+  palette:
+    white: "#FFFFFF"
+    black: "#000000"
+    red: "#FF0000"
+    light-red: "#E7433A"
+    dark-red: "#CB0D02"
+    green: "#38840F"
+    light-green: "#C9F874"
+    blue: "#38A2E9"
+  background: white
+  primary: red
+  light: white
+  dark: black

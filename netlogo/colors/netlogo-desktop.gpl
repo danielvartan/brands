@@ -1,0 +1,34 @@
+GIMP Palette
+Name: NetLogo Desktop
+Columns: 0
+
+# Learn more about the format at:
+# 
+# - https://github.com/Robert-96/gimp-color-palettes
+# - https://developer.gimp.org/core/standards/gpl/
+
+# # Examples
+# 
+# - GIMP Color Palettes: <https://robert-96.github.io/gimp-color-palettes/>.
+# - Material Design Color Swatches: 
+#   <https://github.com/christianlacerda/material-design-swatches>.
+
+# # Format
+# 
+# r g b   any color name you want
+# 
+# - Each column must have 3 numbers: `000 000 000`.
+# - Align the numbers to the right.
+# - The presence of the `Columns` lines is required on Inkscape.
+
+255 255 255   White
+  0   0   0   Black
+255   0   0   Red
+243  21   0   Light Red
+225  26   0   Shaded Red
+195   0   0   Dark Red
+ 70 183  76   Green
+ 80 177  79   Light Green
+ 20 106  10   Dark Green
+ 96 108 251   Blue
+203 237 255   Light Blue
