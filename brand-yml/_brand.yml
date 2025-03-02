@@ -1,0 +1,160 @@
+# For detailed documentation on the format, refer to:
+#
+# - https://posit-dev.github.io/brand-yml
+# - https://quarto.org/docs/authoring/brand.html
+
+# Based on:
+# 
+# - https://github.com/posit-dev/brand-yml/blob/main/docs/_brand.yml
+
+meta:
+  name:
+    short: brand.yml
+    long: {brandr}: Brand Identity Management Using brand.yml Standard
+  link:
+    home: https://posit-dev.github.io/brand-yml
+    github: https://github.com/posit-dev/brand-yml
+  description: |
+    An R package to facilitate brand identity management using the 'brand.yml'
+    standard, providing functions to consistently access and apply brand
+    colors, typography, and other visual elements across your R projects.
+
+logo: 
+  images:
+    icon:
+      path: images/icon.svg
+      alt: "Icon"
+    icon-black:
+      path: images/icon-black.svg
+      alt: "Icon"
+    icon-white:
+      path: images/icon-white.svg
+      alt: "Icon"
+    logo:
+      path: images/logo.svg
+      alt: "Primary logo"
+    logo-black:
+      path: images/logo-black.svg
+      alt: "Primary logo (Black)"
+    logo-white:
+      path: images/logo-white.svg
+      alt: "Primary logo (White)"
+    logo-wide:
+      path: images/logo-wide.svg
+      alt: "Horizontal logo"
+    logo-wide-black:
+      path: images/logo-wide-black.svg
+      alt: "Horizontal logo (Black)"
+    logo-wide-white:
+      path: images/logo-wide-white.svg
+      alt: "Horizontal logo (White)"
+    hex-logo:
+      path: images/hex-logo.svg
+      alt: "Hex logo"
+    favicon:
+      path: images/favicon.png
+      alt: "Icon favicon"
+  small: icon
+  medium: logo-wide
+  large: logo
+
+color:
+  palette:
+    light-purple: "#721A6E"
+    purple: "#390963"
+    dark-purple: "#35131F"
+    pink: "#A92E5E"
+    red: "#DA4E3C"
+    orange: "#F06F20"
+    yellow: "#FB9706"
+    white: "#FFFFFF"
+    black: "#00000"
+    gray-light: "#f0f0f0"
+    gray: "#454955"
+    gray-dark: "#343A40"
+  background: white
+  primary: red
+  secondary: purple
+  tertiary: yellow
+  success: red
+  info: red
+  warning: red
+  danger: red
+  light: white
+  dark: dark-purple
+
+typography:
+  fonts:
+    - family: Helvetica Neue
+      source: file
+    - family: Open Sans
+      source: google
+    - family: Rubik
+      source: google
+      weight: [400, 600, 700, 900]
+    - family: IBM Plex Mono
+      source: google
+  base:
+    family: Open Sans
+    line-height: 1.6
+    weight: normal
+  headings:
+    family: Rubik
+    weight: 400
+  link:
+    color: red
+    decoration: underline
+  monospace:
+    family: IBM Plex Mono
+    size: 1em
+  monospace-inline:
+    family: IBM Plex Mono
+    color: purple
+    background-color: gray-light
+  monospace-block:
+    family: IBM Plex Mono
+    line-height: 1.2
+    background-color: gray-light
+
+defaults:
+  bootstrap:
+    defaults:
+      enable-rounded: false
+      navbar-bg: $brand-black
+    rules: |
+      .code-with-filename .code-with-filename-file {
+        background-color: $brand-gray;
+        pre {
+          color: $body-bg;
+          font-family: $font-family-base;
+          font-size: 0.9rem;
+          padding-block: 0.25rem;
+        }
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        --start: 0%;
+        --end: 125%;
+        --angle: -55deg;
+        --start-color: hsla(276, 80%, 22%, 1);
+        --end-color: hsla(31, 94%, 52%, 1);
+        background: var(--start-color);
+        background: linear-gradient(
+          var(--angle),
+          var(--start-color) var(--start),
+          var(--end-color) var(--end)
+        );
+        background: -moz-linear-gradient(
+          var(--angle),
+          var(--start-color) var(--start),
+          var(--end-color) var(--end)
+        );
+        background: -webkit-linear-gradient(
+          var(--angle),
+          var(--start-color) var(--start),
+          var(--end-color) var(--end)
+        );
+        &, h1 {
+          color: white;
+        }
+      }
