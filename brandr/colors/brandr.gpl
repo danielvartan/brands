@@ -1,0 +1,32 @@
+GIMP Palette
+Name: brandr
+Columns: 0
+
+# Learn more about the format at:
+# 
+# - https://github.com/Robert-96/gimp-color-palettes
+# - https://developer.gimp.org/core/standards/gpl/
+
+# # Examples
+# 
+# - GIMP Color Palettes: <https://robert-96.github.io/gimp-color-palettes/>.
+# - Material Design Color Swatches: 
+#   <https://github.com/christianlacerda/material-design-swatches>.
+
+# # Format
+# 
+# r g b   any color name you want
+# 
+# - Each column must have 3 numbers: `000 000 000`.
+# - Align the numbers to the right.
+# - The presence of the `Columns` lines is required on Inkscape.
+
+255 255 255   White
+  0   0   0   Black
+ 53  19  31   Dark Purple
+ 57   9  99   Purple
+114  26 110   Light Purple
+169  46  94   Pink
+218  78  60   Red
+240 111  32   Orange
+251 151   6   Yellow

@@ -9,15 +9,15 @@
 
 meta:
   name:
-    short: brand.yml
-    long: {brandr}: Brand Identity Management Using brand.yml Standard
+    short: "brand.yml"
+    long: "brand.yml: Unified Branding with a Simple YAML File"
   link:
     home: https://posit-dev.github.io/brand-yml
     github: https://github.com/posit-dev/brand-yml
   description: |
-    An R package to facilitate brand identity management using the 'brand.yml'
-    standard, providing functions to consistently access and apply brand
-    colors, typography, and other visual elements across your R projects.
+    brand.yml is a simple, portable YAML file that codifies your company’s 
+    brand guidelines into a format that can be used by Quarto, Python and R 
+    tooling to create branded outputs.
 
 logo: 
   images:
