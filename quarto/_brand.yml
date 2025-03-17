@@ -1,0 +1,98 @@
+# For detailed documentation on the format, refer to:
+#
+# - https://posit-dev.github.io/brand-yml
+# - https://quarto.org/docs/authoring/brand.html
+
+# Based on Quarto's promotional materials: https://quarto.org
+
+meta:
+  name:
+    short: "Quarto"
+    long: "Quarto: An Open-Source Scientific and Technical Publishing System"
+  link:
+    home: https://quarto.org
+    github: https://github.com/quarto-dev
+    twitter: https://twitter.com/quarto_pub
+  description: |
+    An open source technical publishing system for creating beautiful articles,
+    websites, blogs, books, slides, and more. Supports Python, R, Julia, and 
+    JavaScript.
+
+logo: 
+  images:
+    icon:
+      path: images/icon.svg
+      alt: "Icon"
+    logo:
+      path: images/logo.png
+      alt: "Logo"
+    hex-logo:
+      path: images/hex-logo.png
+      alt: "Hex logo"
+    favicon:
+      path: images/favicon.png
+      alt: "Icon favicon"
+    og-image:
+      path: images/og-image.png
+      alt: "Open Graph Image"
+  small: icon
+  medium: logo
+  large: logo
+
+color: # Inconsistent color use
+  palette:
+    blue: "#41729B"
+    blue-light: "#74AADB"
+    blue-pale: "#D7DDEB"
+    blue-dark: "#0C5073"
+    blue-headings: "#39729E"
+    blue-link: "#39729E"
+    blue-button: "#447099"
+    blue-favicon: "#74BBFF"
+    blue-bg-hex-logo: "#006E9D"
+    white: "#FFFFFF"
+    gray-100: "#F8F9FA"
+    gray-200: "#E9ECEF"
+    gray-300: "#DEE2E6"
+    gray-400: "#CED4DA"
+    gray-500: "#ADB5BD"
+    gray-600: "#6C757D"
+    gray-700: "#495057"
+    gray-800: "#343A40"
+    gray-900: "#212529"
+    gray-text-muted: "#6A737B"
+    gray-button-muted: "#959595"
+    black: "#343A40"
+  background: white
+  primary: blue-headings
+  secondary: blue-light
+  tertiary: blue-pale
+  success: blue-headings
+  info: blue-headings
+  warning: blue-headings
+  danger: blue-headings
+  light: white
+  dark: black
+
+typography: # Inconsistent typeface use
+  fonts:
+    - family: Poppins # Google Font's closest match with the logo font
+      source: google
+      weight: [300, 400, 600, 700, 900]
+    - family: Source Sans 3 # Used in Quarto's website
+      source: google
+      weight: [400, 600, 700, 900]
+    - family: Source Code Pro
+      source: google
+  base:
+    family: Source Sans 3
+    line-height: 1.5
+    weight: normal
+  headings:
+    color: blue-headings
+    family: Source Sans 3
+    weight: 600
+  link:
+    color: blue-link
+    decoration: underline
+  monospace: Source Code Pro
