@@ -1,11 +1,3 @@
-# # For detailed documentation on the `_brand.yml` format, refer to:
-#
-# - https://posit-dev.github.io/brand-yml
-# - https://quarto.org/docs/authoring/brand.html
-
-# Learn more about the brand at:
-# https://www.gov.br/capes/pt-br/centrais-de-conteudo/logomarca
-
 meta:
   name:
     short: ABM Study Group
