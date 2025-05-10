@@ -6,9 +6,10 @@ meta:
     home: https://danielvartan.github.io/actverse
     github: https://github.com/danielvartan/actverse
   description: >
-    An R package to process, analyze and visualize actigraphy data.
+    A comprehensive toolkit to process, analyze and visualize
+    actigraphy data in R.
 
-logo: 
+logo:
   images:
     logo:
       path: images/logo.svg
@@ -22,19 +23,20 @@ logo:
 
 color:
   palette:
-    blue: "#26006d"
-    purple: "#710051"
+    blue: "#410085"
+    red: "#FC2913"
+    yellow: "#FFB426"
     white: "#FFFFFF"
-    gray: "#A69B86"
-    black: "#000000"
+    gray: "#B8B0A8"
+    black: "#000040"
   background: white
   primary: blue
-  secondary: purple
-  tertiary: gray
-  success: purple
-  info: purple
-  warning: purple
-  danger: purple
+  secondary: red
+  tertiary: yellow
+  success: blue
+  info: blue
+  warning: red
+  danger: red
   light: white
   dark: black
 
@@ -52,6 +54,29 @@ typography:
     family: Lexend Deca
     weight: 600
   link:
-    color: purple
+    color: blue
     decoration: underline
   monospace: Roboto Mono
+
+defaults:
+  bootstrap:
+    rules: |
+      .text-warning {
+        color: $brand-gray !important;
+      }
+
+      .navbar-brand {
+        color: $brand-white !important;
+      }
+
+      [data-bs-theme="dark"] a {
+        color: $brand-gray
+      }
+
+      [data-bs-theme="dark"] pre, [data-bs-theme="dark"] .nav-link {
+        color: rgba(255,255,255,0.65) !important;
+      }
+
+      [data-bs-theme="dark"] .nav-link:hover {
+        color: rgba(255,255,255,0.8) !important;
+      }
