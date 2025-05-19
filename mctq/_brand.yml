@@ -1,0 +1,63 @@
+meta:
+  name:
+    short: "{mctq}"
+    long: >
+      {mctq}: A Tidyverse-Style Toolbox for the Munich ChronoType 
+      Questionnaire
+  link:
+    home: https://danielvartan.github.io/mctq
+    github: https://github.com/danielvartan/mctq
+  description: >
+    A complete toolkit to process the Munich ChronoType Questionnaire (MCTQ), 
+    a quantitative and validated tool to assess chronotypes using individuals’ 
+    sleep behavior, as presented by Till Roenneberg, Anna Wirz-Justice, and 
+    Martha Merrow in 2003.
+
+logo:
+  images:
+    logo:
+      path: images/logo.png
+      alt: "Logo"
+    og-image:
+      path: images/og-image.png
+      alt: "Open Graph Image"
+  small: logo
+  medium: logo
+  large: logo
+
+color:
+  palette:
+    red: "#FC2913"
+    yellow: "#FFB426"
+    blue: "#410085"
+    white: "#FFFFFF"
+    gray: "#B8B0A8"
+    black: "#000040"
+  background: white
+  primary: red
+  secondary: yellow
+  tertiary: blue
+  success: blue
+  info: blue
+  warning: red
+  danger: red
+  light: white
+  dark: black
+
+typography:
+  fonts:
+    - family: Comfortaa
+      source: google
+    - family: Space Mono
+      source: google
+  base:
+    family: Comfortaa
+    line-height: 1.5
+    weight: normal
+  headings:
+    family: Comfortaa
+    weight: 600
+  link:
+    color: red
+    decoration: underline
+  monospace: Space Mono

@@ -1,0 +1,76 @@
+meta:
+  name:
+    short: "{iramuteqlike}"
+    long: "{iramuteqlike}: IRaMuTeQ in R"
+  link:
+    home: https://danielvartan.github.io/groomr
+    github: https://github.com/danielvartan/groomr
+  description: >
+    An R package that provides tools to reproduce analyses from the IRaMuTeQ
+    software within R.
+
+logo: 
+  images:
+    logo:
+      path: images/logo.svg
+      alt: "Logo"
+    og-image:
+      path: images/og-image.svg
+      alt: "Open Graph Image"
+  small: logo
+  medium: logo
+  large: logo
+
+color:
+  palette:
+    red: "#FF0000"
+    blue: "#0000FF"
+    dark-blue: "#2F648C"
+    light-blue: "#007DFF"
+    bg-blue: "#93C5E1"
+    green: "#00FF1A"
+    light-green: "#95E890"
+    pink: "#FF00D7"
+    white: "#FFFFFF"
+    gray: "#808080"
+    black: "#000000"
+  background: bg-blue
+  primary: red
+  secondary: blue
+  tertiary: green
+  success: blue
+  info: blue
+  warning: red
+  danger: red
+  light: white
+  dark: black
+
+typography:
+  fonts:
+    - family: Purisa
+      source: file
+      files:
+        - path: typefaces/purisa/purisa-medium.ttf
+          weight: medium
+        - path: typefaces/purisa/purisa-oblique.ttf
+          style: italic
+        - path: typefaces/purisa/purisa-bold.ttf
+          weight: bold
+        - path: typefaces/purisa/purisa-boldoblique.ttf
+          weight: bold
+          style: italic
+    - family: Open Sans
+      source: google
+    - family: Source Code Pro
+      source: google
+  base:
+    family: Open Sans
+    line-height: 1.5
+    weight: normal
+  headings:
+    color: black
+    family: Open Sans
+  link:
+    color: red
+    decoration: underline
+  monospace: Source Code Pro
