@@ -1,0 +1,76 @@
+meta:
+  name:
+    short: Argus
+    full: Argus Media Group
+  link:
+    home: https://www.argusmedia.com
+    facebook: https://www.facebook.com/ArgusMedia
+    linkedin: https://uk.linkedin.com/company/argus-media
+    x: https://twitter.com/argusmedia
+    youtube: https://www.youtube.com/user/argusmediavideo
+  description: >
+    Argus is the leading independent provider of market intelligence to the
+    global energy and commodity markets. We offer essential price assessments,
+    news, analytics, consulting services, data science tools and industry
+    conferences to illuminate complex and opaque commodity markets.
+
+    Headquartered in London with over 1,500 staff, Argus is an independent
+    media organisation with 30 offices in the world’s principal commodity
+    trading hubs.
+
+    Companies, trading firms and governments in 160 countries around the world
+    trust Argus data to make decisions, analyse situations, manage risk,
+    facilitate trading and for long-term planning. Argus prices are used as
+    trusted benchmarks around the world for pricing transportation, commodities
+    and energy.
+
+    Founded in 1970, Argus remains a privately held UK-registered company owned
+    by employee shareholders and global growth equity firm General Atlantic.
+  founded: 1970
+
+color:
+  palette:
+    blue: "#1e4897"
+    light-blue: "#33beee"
+    logo-blue: "#005dac"
+    logo-light-blue: "#5ba7dc"
+    white: "#ffffff"
+    grey: "#a7a7a7" #Accent
+    black: "#1d1d1d" # Base
+  background: white
+  primary: blue
+  secondary: light-blue
+  tertiary: grey
+  success: blue
+  info: blue
+  warning: black
+  danger: black
+  light: white
+  dark: black
+
+typography:
+  fonts:
+    - family: Merriweather
+      source: google
+    - family: Open Sans
+      source: google
+  base:
+    family: Open Sans
+    size: 1.8rem
+    line-height: 1.39
+    weight: 400
+  headings:
+    # h2 {font-size: 2.4;}
+    family: Merriweather
+    color: brown
+    line-height: 2.8
+    weight: 700
+  monospace: Source Code Pro
+  monospace-inline:
+    color: blue
+    background-color: gray
+  monospace-block:
+    background-color: gray
+  link:
+    color: light-blue
+    decoration: underline
