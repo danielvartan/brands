@@ -34,17 +34,25 @@ color:
     light-blue: "#33beee"
     logo-blue: "#005dac"
     logo-light-blue: "#5ba7dc"
+    light-green: "#0ca6ae"
+    dark-violet: "#c40067"
+    orange: "#ffac17"
+    slate-blue: "#6a6ab0"
+    steel-blue: "#317aad"
+    yellow-green: "#a4c03c"
     white: "#ffffff"
-    grey: "#a7a7a7" #Accent
+    gray: "#a7a7a7" #Accent
+    gray-900: "#ededed" # brandr::get_brand_color_tint(900, "gray")
+    gray-950: "#f6f6f6" # brandr::get_brand_color_tint(950, "gray")
     black: "#1d1d1d" # Base
   background: white
   primary: blue
   secondary: light-blue
   tertiary: grey
-  success: blue
+  success: yellow-green
   info: blue
-  warning: black
-  danger: black
+  warning: orange
+  danger: dark-violet
   light: white
   dark: black
 
@@ -56,21 +64,20 @@ typography:
       source: google
   base:
     family: Open Sans
-    size: 1.8rem
-    line-height: 1.39
+    size: 1rem
+    line-height: 1.5
     weight: 400
   headings:
-    # h2 {font-size: 2.4;}
     family: Merriweather
     color: brown
-    line-height: 2.8
+    line-height: 1.5
     weight: 700
   monospace: Source Code Pro
   monospace-inline:
     color: blue
-    background-color: gray
+    background-color: gray-950
   monospace-block:
-    background-color: gray
+    background-color: gray-950
   link:
-    color: light-blue
+    color: blue
     decoration: underline
