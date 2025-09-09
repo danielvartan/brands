@@ -1,0 +1,68 @@
+meta:
+  name:
+    short: "{Logônia}"
+    long: "{Logônia}: Netlogia Brasiliensis Growth Response Model"
+  link:
+    home: https://github.com/sustentarea/logonia
+    github: https://github.com/sustentarea/logonia
+  description: >-
+    {Logônia} is a NetLogo model that simulates the growth response of a
+    fictional plant species, Logônia (*Netlogia brasiliensis*), under varying
+    climatic conditions. The model integrates climate data from WorldClim 2.1
+    and demonstrates how to incorporate the {LogoClim} model into other NetLogo
+    projects using the {LevelSpace} extension.
+
+logo: 
+  images:
+    logo:
+      path: images/logo.svg
+      alt: "Logo"
+  small: logo
+  medium: logo
+  large: logo
+
+color:
+  palette:
+    lime: "#2cd13b" # NetLogo: lime (65)
+    lime-green: "#57af3a" # NetLogo: green - 0.1 (54.9)
+    olive: "#52a537" # NetLogo: green - 0.4 (54.6)
+    olive-brown: "#84841b" # NetLogo: yellow - 2.3 (42.7)
+    brown: "#9d6e48" # NetLogo: brown (35)
+    white: "#FFFFFF" # NetLogo: white (9.9)
+    gray: "#8d8d8d" # NetLogo: gray (5)
+    light-gray: "#e8e8e8" # NetLogo: gray + 4 (9)
+    black: "#000000"
+  background: white
+  primary: lime
+  secondary: olive-brown
+  tertiary: brown
+  success: lime
+  info: lime-green
+  warning: olive-brown
+  danger: brown
+  light: white
+  dark: black
+
+typography:
+  fonts:
+    - family: Poppins
+      source: google
+    - family: DM Mono
+      source: google
+  base:
+    family: Poppins
+    line-height: 1.5
+    weight: normal
+  headings:
+    family: Poppins
+    color: brown
+    weight: bold
+  monospace: DM Mono
+  monospace-inline:
+    color: lime
+    background-color: light-gray
+  monospace-block:
+    background-color: light-gray
+  link:
+    color: lime
+    decoration: underline
