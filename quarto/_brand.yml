@@ -1,10 +1,3 @@
-# For detailed documentation on the format, refer to:
-#
-# - https://posit-dev.github.io/brand-yml
-# - https://quarto.org/docs/authoring/brand.html
-
-# Based on Quarto's promotional materials: https://quarto.org
-
 meta:
   name:
     short: "Quarto"
@@ -20,12 +13,12 @@ meta:
 
 logo: 
   images:
-    icon:
-      path: images/icon.svg
-      alt: "Icon"
     logo:
       path: images/logo.png
       alt: "Logo"
+    icon:
+      path: images/icon.svg
+      alt: "Icon"
     hex-logo:
       path: images/hex-logo.png
       alt: "Hex logo"

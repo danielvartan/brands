@@ -1,15 +1,52 @@
 GIMP Palette
-Name: NetLogo Desktop
+Name: NetLogo
 Columns: 0
 
 255 255 255   White
   0   0   0   Black
-255   0   0   Red
-243  21   0   Light Red
-225  26   0   Shaded Red
-195   0   0   Dark Red
- 70 183  76   Green
- 80 177  79   Light Green
- 20 106  10   Dark Green
- 96 108 251   Blue
-203 237 255   Light Blue
+246  21   1   Red
+194   1   1   Dark Red
+ 67 184 255   Blue
+  0 153 245   Blue Gradient Dark
+152 216 255   Blue Gradient Light
+255 195  54   Yellow
+222 155   1   Dark Yellow
+ 43 219  61   Green
+  6 112 237   Light Theme Blue
+207 229 255   Light Theme Light Blue
+215 215 215   Light Theme Gray
+238 238 238   Light Theme Light Gray
+204 204 204   Light Theme Dark Gray
+255 255 255   Light Theme White
+  0   0   0   Light Theme Black
+  6 112 237   Dark Theme Blue
+  0  54 117   Dark Theme Dark Blue
+ 79  79  79   Dark Theme Gray
+204 204 204   Dark Theme Light Gray
+ 70  70  76   Dark Theme Dark Gray 1
+ 45  45  54   Dark Theme Dark Gray 2
+ 22  22  22   Dark Theme Dark Gray 3
+255 255 255   Dark Theme White
+  0   0   0   Dark Theme Black
+130 188 183   Classic Theme Aquamarine
+200 103 103   Classic Theme Red
+188 188 230   Classic Theme Purple
+225 225 182   Classic Theme Sand
+204 204 204   Classic Theme Gray
+238 238 238   Classic Theme Light Gray
+255 255 255   Classic Theme White
+  0   0   0   Classic Theme Black
+141 141 141   Color Swatch Gray
+215  50  41   Color Swatch Red
+241 106  21   Color Swatch Orange
+157 110  72   Color Swatch Brown
+236 236  41   Color Swatch Yellow
+ 89 176  60   Color Swatch Green
+ 44 209  59   Color Swatch Lime
+ 29 159 120   Color Swatch Turquoise
+ 84 196 196   Color Swatch Cyan
+ 45 141 190   Color Swatch Sky
+ 52  93 169   Color Swatch Blue
+124  80 164   Color Swatch Violet
+167  27 106   Color Swatch Magenta
+217  99 127   Color Swatch Pink
