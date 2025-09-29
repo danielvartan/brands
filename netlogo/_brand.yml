@@ -91,7 +91,7 @@ typography:
   fonts:
     - family: Inter # Used on NetLogo Website
       source: google
-    - family: Fragment Mono # Not official!
+    - family: Source Code Pro # Not official!
       source: google
   base:
     family: Inter
@@ -104,4 +104,13 @@ typography:
   link:
     color: website-blue
     decoration: none
-  monospace: Fragment Mono
+  monospace:
+    family: Source Code Pro
+    size: 1em
+  monospace-inline:
+    family: Source Code Pro
+    color: purple
+    background-color: light-theme-light-gray
+  monospace-block:
+    family: Source Code Pro
+    background-color: light-theme-light-gray
