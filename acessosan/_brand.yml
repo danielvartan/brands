@@ -28,8 +28,9 @@ color:
     blue: "#215f9a"
     white: "#ffffff"
     black: "#000000"
-    warm-gray: "#3a352f" # CEM Gray
-    gray-95: "#f1f1f1" # colorspace::lighten("#000000", 0.95)
+    gray-75: "#b9b9b9" # colorspace::lighten("#000000", 0.75)
+    gray-90: "#e2e2e2"
+    gray-95: "#f1f1f1"
   background: white
   primary: blue
   secondary: black
