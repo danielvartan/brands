@@ -1,0 +1,41 @@
+meta:
+  name: AcessoSAN
+  link:
+    home: https://centrodametropole.fflch.usp.br
+  description: |
+    Project of the Public Policy Research Program (PPPP) of the São Paulo
+    Research Foundation (FAPESP), carried out by the Polytechnic School (POLI)
+    of the University of São Paulo (USP) in partnership with the National
+    Secretariat for Food and Nutrition Security (SESAN) of the Ministry of
+    Social Development, Family and Fight Against Hunger (MDS). The project
+    focuses on mapping food access to support public policies on food and
+    nutrition security and hunger reduction in Brazilian cities.
+
+logo: 
+  images:
+    logo:
+      path: images/logo.svg
+      alt: "Logo"
+
+color:
+  palette:
+    blue: "#215F9A"
+    white: "#FFFFFF"
+    black: "#000000"
+  background: white
+  primary: blue
+  secondary: black
+  light: white
+  dark: black
+
+typography:
+  fonts:
+    - family: Univers
+      source: file
+    - family: Arial
+      source: file
+  base:
+    family: Arial
+  headings:
+    family: Univers
+    color: black
