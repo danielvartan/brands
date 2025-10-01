@@ -16,12 +16,20 @@ logo:
     logo:
       path: images/logo.svg
       alt: "Logo"
+    icon:
+      path: images/icon.svg
+      alt: "Icon"
+    pin:
+      path: images/pin.svg
+      alt: "Pin"
 
 color:
   palette:
-    blue: "#215F9A"
-    white: "#FFFFFF"
+    blue: "#215f9a"
+    white: "#ffffff"
     black: "#000000"
+    warm-gray: "#3a352f" # CEM Gray
+    gray-95: "#f1f1f1" # colorspace::lighten("#000000", 0.95)
   background: white
   primary: blue
   secondary: black
@@ -30,12 +38,33 @@ color:
 
 typography:
   fonts:
-    - family: Univers
+    - family: Impact
       source: file
-    - family: Arial
-      source: file
+    - family: Antonio
+      source: google
+    - family: Barlow
+      source: google
+    - family: Space Mono
+      source: google
   base:
-    family: Arial
+    family: Barlow
   headings:
-    family: Univers
+    family: An
     color: black
+  base:
+    family: Barlow
+    line-height: 1.25
+    weight: normal
+  headings:
+    family: Antonio
+    color: blue
+    weight: 700
+  monospace: Space Mono
+  monospace-inline:
+    color: blue
+    background-color: gray-95
+  monospace-block:
+    background-color: gray-95
+  link:
+    color: green
+    decoration: none
