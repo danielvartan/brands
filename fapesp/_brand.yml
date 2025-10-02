@@ -1,0 +1,57 @@
+meta:
+  name:
+    short: FAPESP
+    full: Fundação de Amparo à Pesquisa do Estado de São Paulo
+  link:
+    home: https://fapesp.br
+    instagram: https://www.instagram.com/agenciafapesp
+    x: https://x.com/AgenciaFAPESP
+    bluesky: https://bsky.app/profile/agenciafapesp.bsky.social
+    youtube: https://www.youtube.com/channel/UC4Ml9MsL-7hKKGlhcAtMwDg
+    facebook: https://www.facebook.com/agfapesp/
+  description: |
+    A Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP) é uma das
+    principais agências de fomento à pesquisa científica e tecnológica do país.
+    Com um orçamento anual correspondente a 1% da receita tributária estadual e
+    autonomia garantida por lei, a FAPESP está ligada à Secretaria de Ciência,
+    Tecnologia e Inovação do Estado de São Paulo.
+
+logo: 
+  images:
+    logo:
+      path: images/logo.svg
+      alt: "Logo"
+
+color:
+  palette:
+    blue: "#05376c"
+    white: "#FFFFFF"
+    black: "#000000"
+  background: white
+  primary: blue
+  secondary: black
+  light: white
+  dark: black
+
+typography:
+  fonts:
+    - family: Encode Sans Condensed
+      source: google
+    - family: Roboto
+      source: google
+    - family: Roboto Mono
+      source: google
+  base:
+    family: Roboto
+    line-height: 1.7
+    weight: normal
+  headings:
+    family: Encode Sans Condensed
+    color: blue
+    weight: Bold
+  monospace: Roboto Mono
+  monospace-inline:
+    color: blue
+  link:
+    color: blue
+    decoration: none
