@@ -1,0 +1,63 @@
+meta:
+  name: |
+    Associations between the duration and quality of sleep of pregnant
+    women in the third trimester with the duration of labor
+  link:
+    home: https://doi.org/10.17605/OSF.IO/S4TBZ
+    github: https://github.com/aliciarvilefortsales/mastersthesis
+  description: |
+    Associations between the duration and quality of sleep of pregnant
+    women in the third trimester with the duration of labor
+
+logo:
+  images:
+    favicon:
+      path: images/favicon.png
+      alt: "Favicon"
+    og-image:
+      path: images/og-image.png
+      alt: "Open Graph Image"
+
+color:
+  palette:
+    pantone-4r14-sp: "#63483E" # PANTONE 4R14 SP
+    pantone-4r14-sp-995: "#FDFDFD" # PANTONE 4R14 SP
+    pantone-2y12-sp: "#89634C" # PANTONE 2Y12 SP
+    pantone-5r07-sp: "#BE9186" # PANTONE 5R07 SP
+    pantone-2r03-sp: "#CAA596" # PANTONE 2R03 SP
+    white: "#FFFFFF"
+    black: "#63483E" # PANTONE 4415 SP
+    black-725: "#A99A94" # get_brand_color_tint(725, "black")
+  background: white
+  primary: pantone-4r14-sp
+  secondary: pantone-2y12-sp
+  tertiary: pantone-2r03-sp
+  success: pantone-2r03-sp
+  info: pantone-2r03-sp
+  warning: pantone-2r03-sp
+  danger: pantone-2r03-sp
+  light: pantone-2r03-sp
+  dark: pantone-4r14-sp
+
+typography:
+  fonts:
+    - family: Open Sans
+      source: google
+      weight: [300, 400, 500, 600]
+    - family: Source Code Pro
+      source: google
+  base:
+    family: Open Sans
+  headings:
+    family: Open Sans
+    color: black
+    weight: bold
+  monospace: Source Code Pro
+  monospace-inline:
+    color: black
+    background-color: pantone-4r14-sp-995
+  monospace-block:
+    background-color: pantone-4r14-sp-995
+  link:
+    color: pantone-2y12-sp
+    decoration: underline
