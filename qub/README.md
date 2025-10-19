@@ -1,0 +1,1 @@
+To download the brand, go to <https://www.qub.ac.uk/brand/file-store/>.
