@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<model version="NetLogo 7.0.3" snapToGrid="true">
+  <code></code>
+  <widgets>
+    <view x="368" wrappingAllowedX="true" y="10" frameRate="30.0" minPycor="-16" height="434" showTickCounter="true" patchSize="13.0" fontSize="10" wrappingAllowedY="true" width="434" tickCounterLabel="ticks" maxPycor="16" updateMode="0" maxPxcor="16" minPxcor="-16"></view>
+  </widgets>
+  <info>\</info>
+  <turtleShapes>
+    <shape name="default" rotatable="true" editableColorIndex="0">
+      <polygon color="-1920102913" filled="true" marked="true">
+        <point x="150" y="5"></point>
+        <point x="40" y="250"></point>
+        <point x="150" y="205"></point>
+        <point x="260" y="250"></point>
+      </polygon>
+    </shape>
+    <shape name="black" rotatable="true" editableColorIndex="0">
+      <circle x="33" y="18" marked="false" color="255" diameter="175" filled="true"></circle>
+    </shape>
+    <shape name="blue" rotatable="true" editableColorIndex="0">
+      <circle x="60" y="45" marked="false" color="878553599" diameter="150" filled="true"></circle>
+    </shape>
+    <shape name="brown" rotatable="true" editableColorIndex="0">
+      <circle x="41" y="56" marked="false" color="-1653716737" diameter="127" filled="true"></circle>
+    </shape>
+    <shape name="cyan" rotatable="true" editableColorIndex="0">
+      <circle x="18" y="33" marked="false" color="1422181631" diameter="175" filled="true"></circle>
+    </shape>
+    <shape name="gray" rotatable="true" editableColorIndex="0">
+      <circle x="30" y="15" marked="true" color="-1920102913" diameter="150" filled="true"></circle>
+    </shape>
+    <shape name="green" rotatable="true" editableColorIndex="0">
+      <circle x="-1" y="14" marked="false" color="1504722175" diameter="212" filled="true"></circle>
+    </shape>
+    <shape name="lime" rotatable="true" editableColorIndex="0">
+      <circle x="24" y="24" marked="false" color="751909887" diameter="192" filled="true"></circle>
+    </shape>
+    <shape name="magenta" rotatable="true" editableColorIndex="0">
+      <circle x="30" y="45" marked="false" color="-1491375361" diameter="150" filled="true"></circle>
+    </shape>
+    <shape name="orange" rotatable="true" editableColorIndex="0">
+      <circle x="15" y="30" marked="false" color="-244705793" diameter="150" filled="true"></circle>
+    </shape>
+    <shape name="pink" rotatable="true" editableColorIndex="0">
+      <circle x="15" y="30" marked="false" color="-528509185" diameter="150" filled="true"></circle>
+    </shape>
+    <shape name="red" rotatable="true" editableColorIndex="0">
+      <circle x="60" y="30" marked="false" color="-684578305" diameter="150" filled="true"></circle>
+    </shape>
+    <shape name="sky" rotatable="true" editableColorIndex="0">
+      <circle x="45" y="45" marked="false" color="764264191" diameter="150" filled="true"></circle>
+    </shape>
+    <shape name="test" rotatable="true" editableColorIndex="0">
+      <rectangle endX="105" startY="0" marked="true" color="-1920102913" endY="90" startX="0" filled="true"></rectangle>
+    </shape>
+    <shape name="turquoise" rotatable="true" editableColorIndex="0">
+      <circle x="35" y="35" marked="false" color="496990463" diameter="170" filled="true"></circle>
+    </shape>
+    <shape name="violet" rotatable="true" editableColorIndex="0">
+      <circle x="15" y="30" marked="false" color="2085659903" diameter="150" filled="true"></circle>
+    </shape>
+    <shape name="white" rotatable="true" editableColorIndex="0">
+      <circle x="30" y="30" marked="false" color="-1" diameter="150" filled="true"></circle>
+    </shape>
+    <shape name="yellow" rotatable="true" editableColorIndex="0">
+      <circle x="75" y="60" marked="false" color="-303222273" diameter="150" filled="true"></circle>
+    </shape>
+  </turtleShapes>
+  <linkShapes>
+    <shape name="default" curviness="0.0">
+      <lines>
+        <line x="-0.2" visible="false">
+          <dash value="0.0"></dash>
+          <dash value="1.0"></dash>
+        </line>
+        <line x="0.0" visible="true">
+          <dash value="1.0"></dash>
+          <dash value="0.0"></dash>
+        </line>
+        <line x="0.2" visible="false">
+          <dash value="0.0"></dash>
+          <dash value="1.0"></dash>
+        </line>
+      </lines>
+      <indicator>
+        <shape name="link direction" rotatable="true" editableColorIndex="0">
+          <line endX="90" startY="150" marked="true" color="-1920102913" endY="180" startX="150"></line>
+          <line endX="210" startY="150" marked="true" color="-1920102913" endY="180" startX="150"></line>
+        </shape>
+      </indicator>
+    </shape>
+  </linkShapes>
+  <previewCommands>setup repeat 75 [ go ]</previewCommands>
+</model>
